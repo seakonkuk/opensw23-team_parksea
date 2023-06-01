@@ -1,0 +1,8 @@
+23-06-01 15:53:22.081 : Model path: model_zoo/scunet_gray_25.pth
+23-06-01 15:53:22.082 : Params number: 17943768
+23-06-01 15:53:22.082 : model_name:scunet_gray_25, image sigma:25
+23-06-01 15:53:22.082 : testsets/set12
+23-06-01 15:53:22.083 :          #Params : 17.9438 [M]
+23-06-01 15:53:23.550 : sample1.jpeg - PSNR: 22.98 dB; SSIM: 0.7338.
+23-06-01 15:53:25.019 : sample2.jpeg - PSNR: 38.46 dB; SSIM: 0.9814.
+23-06-01 15:53:25.020 : Average PSNR/SSIM(RGB) - set12_scunet_gray_25 - PSNR: 30.72 dB; SSIM: 0.8576

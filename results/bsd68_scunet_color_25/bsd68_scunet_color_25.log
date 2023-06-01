@@ -1,0 +1,17 @@
+23-06-01 15:57:21.136 : Model path: model_zoo/scunet_color_25.pth
+23-06-01 15:57:21.137 : Params number: 17946072
+23-06-01 15:57:21.137 : model_name:scunet_color_25, image sigma:25
+23-06-01 15:57:21.137 : testsets/bsd68
+23-06-01 15:57:21.138 :          #Params : 17.9461 [M]
+23-06-01 15:57:22.985 : sample5.jpeg - PSNR: 20.51 dB; SSIM: 0.7884.
+23-06-01 15:57:24.462 : sample6.jpeg - PSNR: 29.17 dB; SSIM: 0.7748.
+23-06-01 15:57:24.463 : Average PSNR/SSIM(RGB) - bsd68_scunet_color_25 - PSNR: 24.84 dB; SSIM: 0.7816
+23-06-01 15:58:09.061 : Model path: model_zoo/scunet_color_25.pth
+23-06-01 15:58:09.062 : Params number: 17946072
+23-06-01 15:58:09.062 : model_name:scunet_color_25, image sigma:25
+23-06-01 15:58:09.062 : testsets/bsd68
+23-06-01 15:58:09.063 :          #Params : 17.9461 [M]
+23-06-01 15:58:10.462 : sample1.jpeg - PSNR: 26.07 dB; SSIM: 0.8820.
+23-06-01 15:58:12.367 : sample5.jpeg - PSNR: 20.51 dB; SSIM: 0.7884.
+23-06-01 15:58:13.885 : sample6.jpeg - PSNR: 29.17 dB; SSIM: 0.7748.
+23-06-01 15:58:13.886 : Average PSNR/SSIM(RGB) - bsd68_scunet_color_25 - PSNR: 25.25 dB; SSIM: 0.8151
