@@ -75,7 +75,7 @@
 
 # Analysis/Visualization
 ## Gaussian Denoising - gray scale image
-### 좋은 결과 예시
+### 성공 사례
 #### input image
 ![sample1](https://github.com/seakonkuk/opensw23-team_parksea/assets/57178250/cd3ae481-68a7-470a-8a16-a1e8b183eb21)
 
@@ -83,7 +83,7 @@
 ![sample1](https://github.com/seakonkuk/opensw23-team_parksea/assets/57178250/f5c01591-1d74-4d0c-9145-a42d97e5ecdf)
 
 
-### 나쁜 결과 예시
+### 실패 사례
 #### input image
 ![sample2](https://github.com/seakonkuk/opensw23-team_parksea/assets/57178250/1df5815c-8e14-43e9-b704-d2b7574e9bf8)
 
@@ -96,7 +96,7 @@
 
 
 ## Gaussian Denoising - color image
-### 좋은 결과 예시
+### 성공 사례
 #### input image
 ![sample6](https://github.com/seakonkuk/opensw23-team_parksea/assets/57178250/0b65f3ab-add5-4953-bab1-aa8cd0bfc4be)
 
@@ -104,7 +104,7 @@
 ![sample6](https://github.com/seakonkuk/opensw23-team_parksea/assets/57178250/3935c2d9-7b37-4ee5-8bc8-c3852fe156cf)
 
 
-### 나쁜 결과 예시
+### 실패 사례
 #### input image
 ![sample8](https://github.com/seakonkuk/opensw23-team_parksea/assets/57178250/4f6242d0-8669-4e12-b56a-4896abd73c18)
 
