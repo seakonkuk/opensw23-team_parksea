@@ -74,6 +74,9 @@
 
 
 # Analysis/Visualization
+
+(총 10개의 이미지로 결과를 도출했습니다.)
+
 ## Gaussian Denoising - gray scale image
 ### 성공 사례
 #### input image
