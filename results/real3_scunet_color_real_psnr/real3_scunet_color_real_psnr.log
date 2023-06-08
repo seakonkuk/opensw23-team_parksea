@@ -4,3 +4,11 @@
 23-06-01 16:01:01.312 : testsets/real3
 23-06-01 16:01:01.313 :          #Params : 17.9461 [M]
 23-06-01 16:01:01.313 : ---1--> sample3.jpeg
+23-06-08 14:12:52.061 : Model path: model_zoo/scunet_color_real_psnr.pth
+23-06-08 14:12:52.062 : Params number: 17946072
+23-06-08 14:12:52.062 : model_name:scunet_color_real_psnr
+23-06-08 14:12:52.062 : testsets/real3
+23-06-08 14:12:52.063 :          #Params : 17.9461 [M]
+23-06-08 14:12:52.063 : ---1--> sample3.jpeg
+23-06-08 14:12:53.189 : ---2--> sample4.JPG
+23-06-08 14:15:14.799 : ---3--> sample5.jpg

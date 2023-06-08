@@ -1,8 +1,18 @@
-23-06-01 15:53:22.081 : Model path: model_zoo/scunet_gray_25.pth
-23-06-01 15:53:22.082 : Params number: 17943768
-23-06-01 15:53:22.082 : model_name:scunet_gray_25, image sigma:25
-23-06-01 15:53:22.082 : testsets/set12
-23-06-01 15:53:22.083 :          #Params : 17.9438 [M]
-23-06-01 15:53:23.550 : sample1.jpeg - PSNR: 22.98 dB; SSIM: 0.7338.
-23-06-01 15:53:25.019 : sample2.jpeg - PSNR: 38.46 dB; SSIM: 0.9814.
-23-06-01 15:53:25.020 : Average PSNR/SSIM(RGB) - set12_scunet_gray_25 - PSNR: 30.72 dB; SSIM: 0.8576
+23-06-08 14:06:05.851 : Model path: model_zoo/scunet_gray_25.pth
+23-06-08 14:06:05.851 : Params number: 17943768
+23-06-08 14:06:05.852 : model_name:scunet_gray_25, image sigma:25
+23-06-08 14:06:05.852 : testsets/set12
+23-06-08 14:06:05.852 :          #Params : 17.9438 [M]
+23-06-08 14:06:07.337 : sample1.jpeg - PSNR: 25.62 dB; SSIM: 0.6663.
+23-06-08 14:06:09.308 : sample2.jpeg - PSNR: 21.25 dB; SSIM: 0.9035.
+23-06-08 14:07:47.357 : sample3.JPG - PSNR: 27.04 dB; SSIM: 0.5972.
+23-06-08 14:07:47.377 : Average PSNR/SSIM(RGB) - set12_scunet_gray_25 - PSNR: 24.63 dB; SSIM: 0.7224
+23-06-08 14:08:49.812 : Model path: model_zoo/scunet_gray_25.pth
+23-06-08 14:08:49.812 : Params number: 17943768
+23-06-08 14:08:49.812 : model_name:scunet_gray_25, image sigma:25
+23-06-08 14:08:49.813 : testsets/set12
+23-06-08 14:08:49.813 :          #Params : 17.9438 [M]
+23-06-08 14:08:51.231 : sample1.jpeg - PSNR: 25.62 dB; SSIM: 0.6663.
+23-06-08 14:08:53.230 : sample2.jpeg - PSNR: 21.25 dB; SSIM: 0.9035.
+23-06-08 14:08:55.199 : sample3.jpeg - PSNR: 23.55 dB; SSIM: 0.8150.
+23-06-08 14:08:55.199 : Average PSNR/SSIM(RGB) - set12_scunet_gray_25 - PSNR: 23.47 dB; SSIM: 0.7950
