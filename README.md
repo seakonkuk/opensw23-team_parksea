@@ -88,14 +88,19 @@
 
 ### 실패 사례
 #### input image
-![sample2](https://github.com/seakonkuk/opensw23-team_parksea/assets/57178250/1df5815c-8e14-43e9-b704-d2b7574e9bf8)
+![sample3](https://github.com/seakonkuk/opensw23-team_parksea/assets/57178250/73b76bd5-1157-426d-8787-06b5c1dfe495)
+
+
 
 #### output image
-![sample2](https://github.com/seakonkuk/opensw23-team_parksea/assets/57178250/21f5e956-4572-48ff-8b10-31024068f5d9)
+![sample3](https://github.com/seakonkuk/opensw23-team_parksea/assets/57178250/fdbf7368-39b5-4c05-8b09-ecc9276d5b8d)
+
+
 
 ### 결과 평가 
 가우시안 노이즈 및 휘도 노이즈가 추가된 이미지에서는 노이즈가 잘 제거된다.
 하지만, 이외의 Salt-and-pepper 노이즈가 추가된 이미지에서는 노이즈가 제거되지 않는 결과를 볼 수 있다.
+큰 사이즈의 이미지 또하 노이즈가 제거되지 않는다.
 
 
 ## Gaussian Denoising - color image
@@ -109,33 +114,49 @@
 
 ### 실패 사례
 #### input image
-![sample8](https://github.com/seakonkuk/opensw23-team_parksea/assets/57178250/4f6242d0-8669-4e12-b56a-4896abd73c18)
+![imageonline-co-noisedimage-5](https://github.com/seakonkuk/opensw23-team_parksea/assets/57178250/3e55b8e6-606b-489f-89e7-6df956a5d2e3)
+
 
 
 #### output image
-![sample8](https://github.com/seakonkuk/opensw23-team_parksea/assets/57178250/b5f2ae71-4147-4f55-8b51-8a201b3c3a58)
+![imageonline-co-noisedimage-5](https://github.com/seakonkuk/opensw23-team_parksea/assets/57178250/4d49b316-9599-4e86-b5b5-c672bf58fefa)
+
 
 
 ### 결과 평가 
 컬러 이미지에서도 흑백 이미지와 동일하게 가우시안 노이즈 및 휘도, 컬러 노이즈가 추가된 이미지에서는 노이즈가 잘 제거된 결과를 볼 수 있다.
 하지만, 이외의 Salt-and-pepper 노이즈, 샷 노이즈, 광도 이미지가 추가된 이미지에서는 노이즈가 제거되지 않는 결과를 볼 수 있다.
+또한, 컬러 이미지에서도 큰 사이즈의 이미지의 노이즈는 제거되지 않는다.
 
 
 
 ## Blind real image denoising
-
+### 성공 사례
 #### input image
-![sample5](https://github.com/seakonkuk/opensw23-team_parksea/assets/57178250/591bb8fe-624a-4107-8fbd-42cb8498e25b)
+![sample3](https://github.com/seakonkuk/opensw23-team_parksea/assets/57178250/75c7d5b1-bd06-4804-beac-3df0e341557a)
 
 
 #### output image
-![sample5](https://github.com/seakonkuk/opensw23-team_parksea/assets/57178250/7dfcb2f6-ed55-41ec-badb-e6c231cdb203)
+![sample3](https://github.com/seakonkuk/opensw23-team_parksea/assets/57178250/c7b911b7-a0e5-4dce-82c1-9ffc31d79e45)
+
+
+### 실패 사례
+#### input image
+![imageonline-co-noisedimage-7](https://github.com/seakonkuk/opensw23-team_parksea/assets/57178250/4e41f98d-d41c-4b62-a2f8-bca78b69b074)
+
+
+
+#### output image
+![imageonline-co-noisedimage-7](https://github.com/seakonkuk/opensw23-team_parksea/assets/57178250/1e102ac3-2bc7-44fc-8156-57f56534e686)
 
 
 ### 결과 평가
 해당 모델은 대부분의 샘플 이미지에서 좋은 결과를 나타낸다.
 다양한 노이즈 제거는 물론, 저화질이 고화질로 잘 향상되는 결과를 볼 수 있다. 
-작은 사이즈의 이미지는 물론, 큰 사이즈의 이미지에서도 결과가 잘 나오는 것을 알 수 있다. 
+하지만, 큰 사이즈의 이미지는 오른쪽과 하단 가장자리의 노이즈가 제거되지 않는 결과를 볼 수 있다.
+
+따라서 세 모델 모두 작은 사이즈의 가우시안 노이즈가 추가된 이미지에서 효과적인 것을 볼 수 있다.
+즉, 해당 모델은 큰 사이즈의 이미지와 가우시안 노이즈가 아닌 다른 종류의 노이즈에서는 실패한다고 볼 수 있다.
 
 
 # Installation
@@ -187,3 +208,4 @@ cd opensw23-team_parksea</code>
   
   
 # Presentation
+https://youtu.be/a0SwVbPEnsQ
