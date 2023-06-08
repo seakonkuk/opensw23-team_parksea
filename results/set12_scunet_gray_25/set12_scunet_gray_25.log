@@ -16,3 +16,10 @@
 23-06-08 14:08:53.230 : sample2.jpeg - PSNR: 21.25 dB; SSIM: 0.9035.
 23-06-08 14:08:55.199 : sample3.jpeg - PSNR: 23.55 dB; SSIM: 0.8150.
 23-06-08 14:08:55.199 : Average PSNR/SSIM(RGB) - set12_scunet_gray_25 - PSNR: 23.47 dB; SSIM: 0.7950
+23-06-08 20:51:14.458 : Model path: model_zoo/scunet_gray_25.pth
+23-06-08 20:51:14.459 : Params number: 17943768
+23-06-08 20:51:14.459 : model_name:scunet_gray_25, image sigma:25
+23-06-08 20:51:14.459 : testsets/set12
+23-06-08 20:51:14.459 :          #Params : 17.9438 [M]
+23-06-08 20:53:40.919 : imageonline-co-noisedimage-2.jpg - PSNR: 21.33 dB; SSIM: 0.8877.
+23-06-08 20:55:58.276 : imageonline-co-noisedimage-3.jpg - PSNR: 21.29 dB; SSIM: 0.8876.
