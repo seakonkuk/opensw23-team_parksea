@@ -1,10 +1,13 @@
 # opensw23 team project
 
-## Team Introduction
+# Team Introduction
 - 박세아 (201911253)
   - 역할 : 전부
 
-## Topic Introduction
+
+
+
+# Topic Introduction
 ### Swin-Conv-UNet과 데이터 합성을 통한 실용적인 블라인드 노이즈 제거
 
 입력: SCUNet의 입력은 노이즈가 있는 이미지입니다. 이 이미지는 네트워크에 통과되어 노이즈가 제거되는 과정을 거칩니다.
@@ -38,7 +41,10 @@
 
 고품질 이미지 패치의 크기는 544x544이며, 노이즈가 있는/클린 패치의 크기는 128x128입니다.
 
-## Results
+
+
+
+# Results
 ### Gaussian denoising - grayscale image
 #### input image
 ![sample1](https://github.com/seakonkuk/opensw23-team_parksea/assets/57178250/c208ce88-0ced-4c21-bdd1-71133343712b)
@@ -65,9 +71,71 @@
 
 
 
-## Analysis/Visualization
 
-## Installation
+
+# Analysis/Visualization
+## Gaussian Denoising - gray scale image
+### 좋은 결과 예시
+#### input image
+![sample1](https://github.com/seakonkuk/opensw23-team_parksea/assets/57178250/cd3ae481-68a7-470a-8a16-a1e8b183eb21)
+
+#### output image
+![sample1](https://github.com/seakonkuk/opensw23-team_parksea/assets/57178250/f5c01591-1d74-4d0c-9145-a42d97e5ecdf)
+
+
+### 나쁜 결과 예시
+#### input image
+![sample2](https://github.com/seakonkuk/opensw23-team_parksea/assets/57178250/1df5815c-8e14-43e9-b704-d2b7574e9bf8)
+
+#### output image
+![sample2](https://github.com/seakonkuk/opensw23-team_parksea/assets/57178250/21f5e956-4572-48ff-8b10-31024068f5d9)
+
+### 결과 평가 
+가우시안 노이즈 및 휘도 노이즈가 추가된 이미지에서는 노이즈가 잘 제거된다.
+하지만, 이외의 Salt-and-pepper 노이즈가 추가된 이미지에서는 노이즈가 제거되지 않는 결과를 볼 수 있다.
+
+
+## Gaussian Denoising - color image
+### 좋은 결과 예시
+#### input image
+![sample6](https://github.com/seakonkuk/opensw23-team_parksea/assets/57178250/0b65f3ab-add5-4953-bab1-aa8cd0bfc4be)
+
+#### output image
+![sample6](https://github.com/seakonkuk/opensw23-team_parksea/assets/57178250/3935c2d9-7b37-4ee5-8bc8-c3852fe156cf)
+
+
+### 나쁜 결과 예시
+#### input image
+![sample8](https://github.com/seakonkuk/opensw23-team_parksea/assets/57178250/4f6242d0-8669-4e12-b56a-4896abd73c18)
+
+
+#### output image
+![sample8](https://github.com/seakonkuk/opensw23-team_parksea/assets/57178250/b5f2ae71-4147-4f55-8b51-8a201b3c3a58)
+
+
+### 결과 평가 
+컬러 이미지에서도 흑백 이미지와 동일하게 가우시안 노이즈 및 휘도, 컬러 노이즈가 추가된 이미지에서는 노이즈가 잘 제거된 결과를 볼 수 있다.
+하지만, 이외의 Salt-and-pepper 노이즈, 샷 노이즈, 광도 이미지가 추가된 이미지에서는 노이즈가 제거되지 않는 결과를 볼 수 있다.
+
+
+
+## Blind real image denoising
+
+#### input image
+![sample5](https://github.com/seakonkuk/opensw23-team_parksea/assets/57178250/591bb8fe-624a-4107-8fbd-42cb8498e25b)
+
+
+#### output image
+![sample5](https://github.com/seakonkuk/opensw23-team_parksea/assets/57178250/7dfcb2f6-ed55-41ec-badb-e6c231cdb203)
+
+
+### 결과 평가
+해당 모델은 대부분의 샘플 이미지에서 좋은 결과를 나타낸다.
+다양한 노이즈 제거는 물론, 저화질이 고화질로 잘 향상되는 결과를 볼 수 있다. 
+작은 사이즈의 이미지는 물론, 큰 사이즈의 이미지에서도 결과가 잘 나오는 것을 알 수 있다. 
+
+
+# Installation
 세팅 환경 : 맥 os 
 
 ### Clone
@@ -112,4 +180,7 @@ cd opensw23-team_parksea</code>
   처리된 결과 이미지는 results 내의 real3_scunet_color_real_psnr 폴더 내에 저장된다.
 
   
-## Presentation
+  
+  
+  
+# Presentation
